@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <section class="dashboard">
+        <div class="container">
+            <div class="donut-chart" id="donut-chart"> <!--DONUT-->
+                <svg id="ring" width="300px" height="300px"></svg>
+            </div>
+
+            <div class="tasks">
+                <fieldset> <!--provides a grouping for a part of an HTML form-->
+                    <legend>Check off task:</legend> <!--with a nested <legend>  providing a caption for the <fieldset>-->
+                        
+                        <!--CHECKBOXES-->
+                        <div>
+                            <input type="checkbox" id="task1" name="task1" checked />
+                            <label for="task1">Task 1</label> <!--display name-->
+                        </div>
+                        <div>
+                            <input type="checkbox" id="task2" name="task2" checked />
+                            <label for="task2">Task 2</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="task3" name="task3" checked />
+                            <label for="task3">Task 3</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="task4" name="task4" />
+                            <label for="task4">Task 4</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="task5" name="task5" />
+                            <label for="task5">Task 5</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="task6" name="task6" />
+                            <label for="task6">Task 6</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="task7" name="task7" />
+                            <label for="task7">Task 7</label>
+                        </div>
+                </fieldset>
+            </div>
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
